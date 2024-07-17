@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity16"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/helpText"
+        android:layout_marginBottom="500dp"
+        android:background="#50C2C9" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="700dp"
+        android:background="#50C2C9" />
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="&#x2190;"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#F9FBFB"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/addText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backwardArrow"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="110dp"
+        android:text="John Cooper's"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F3F4F4" />
+
+    <TextView
+        android:id="@+id/communityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backwardArrow"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="140dp"
+        android:text="Community"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#F3F4F4" />
+
+    <ImageView
+        android:id="@+id/chat15pic"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="220dp"
+        android:scaleType="fitXY"
+        android:clickable="true"
+        android:src="@drawable/chat15" />
+
+    <ImageView
+        android:id="@+id/johnpic16"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="180dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/johnpic16" />
+
+    <ImageView
+        android:id="@+id/msgpic15"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="728dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/msgpic15" />
+
+    <ImageView
+        android:id="@+id/plusImage"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="3dp"
+        android:src="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/msg116pic"
+        android:layout_width="310dp"
+        android:layout_height="90dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/msg116" />
+
+    <ImageView
+        android:id="@+id/msg216pic"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/msg216" />
+
+    <ImageView
+        android:id="@+id/msg316pic"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="510dp"
+        android:layout_marginStart="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/msg316" />
+
+    <ImageView
+        android:id="@+id/msg416pic"
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/msg416" />
+
+
+</FrameLayout>

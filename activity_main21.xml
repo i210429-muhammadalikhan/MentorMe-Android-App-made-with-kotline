@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity21"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+
+    <FrameLayout
+        android:id="@+id/main_browse_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:text="&#x2190;"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/addText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="30dp"
+        android:text="My Profile"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <TextView
+        android:id="@+id/dotText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="20dp"
+        android:text="..."
+        android:clickable="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#070707" />
+
+    <ImageView
+        android:id="@+id/profile21"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:clickable="true"
+        android:src="@drawable/onlydpcp21" />
+
+    <ImageView
+        android:id="@+id/newprofilepic"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="40dp"
+        android:scaleType="fitXY"
+        android:clickable="true"
+        android:src="@drawable/john13" />
+
+
+    <TextView
+        android:id="@+id/penciliconprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="190dp"
+        android:text="✏️"
+        android:clickable="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="220dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <TextView
+        android:id="@+id/userCityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#454A4A" />
+
+
+
+
+
+    <Button
+        android:id="@+id/bookedSessionsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="480dp"
+        android:padding="10dp"
+        android:text="Booked Sessions"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:backgroundTint="#FFC107"
+        android:clickable="true"
+        android:onClick="onBookedSessionsButtonClick"/>
+
+    <TextView
+        android:id="@+id/favText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:text="Favorite Mentors"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/squaree"
+        android:layout_width="155dp"
+        android:layout_height="158dp"
+        android:layout_below="@id/TopmentorsforyouText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="380dp"
+        android:clickable="true"
+        android:src="@drawable/bs9" />
+
+    <ImageView
+        android:id="@+id/white7"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TopmentorsforyouText"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="420dp"
+        android:clickable="true"
+        android:src="@drawable/white7" />
+
+
+    <TextView
+        android:id="@+id/mentorNameTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="460dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/mentorDesignationTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="482dp"
+        android:textSize="14sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/mentorStatusTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="495dp"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:textColor="#22DD2A" />
+
+    <TextView
+        android:id="@+id/mentorPriceTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="460dp"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:textColor="#FFC107" />
+
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/squareeright"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="380dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/white7right"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="222dp"
+            android:layout_marginTop="420dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+
+
+        <TextView
+            android:id="@+id/mentorNameTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="460dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/mentorDesignationTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="482dp"
+            android:textSize="14sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/mentorStatusTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="495dp"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:textColor="#22DD2A" />
+
+        <TextView
+            android:id="@+id/mentorPriceTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="460dp"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:textColor="#FFC107" />
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/reviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="550dp"
+        android:text="My Reviews"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+
+        <View
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="580dp"
+            android:background="#50C2C9" />
+
+        <View
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="643dp"
+            android:background="#50C2C9" />
+
+
+
+        <View
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="580dp"
+            android:background="#50C2C9" />
+
+        <View
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="643dp"
+            android:background="#50C2C9" />
+
+
+
+        <View
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="580dp"
+            android:background="#50C2C9" />
+
+        <View
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="643dp"
+            android:background="#50C2C9" />
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/feedbacksLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="590dp">
+
+        <LinearLayout
+            android:id="@+id/leftPairLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="20dp"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp">
+
+
+            <TextView
+                android:id="@+id/leftTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textStyle="italic"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rightPairLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="90dp"
+            android:orientation="vertical"
+            android:layout_marginRight="140dp">
+
+            <TextView
+                android:id="@+id/rightTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <ImageView
+        android:id="@+id/plusImage"
+        android:layout_width="440dp"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="3dp"
+        android:src="@drawable/plus" />
+
+    </FrameLayout>
+
+</HorizontalScrollView>

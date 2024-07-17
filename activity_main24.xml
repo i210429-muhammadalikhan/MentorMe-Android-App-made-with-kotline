@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_page_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity24"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="&#x2190;"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="60dp"
+        android:text=" Notifications 🛎"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="120dp"
+        android:text="Clear all"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FFC107" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        android:text="You have added a mentor, Alex. Thank you!      X"
+        android:textSize="18sp"
+        android:textColor="#050505" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="220dp"
+        android:background="#157177" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="230dp"
+        android:text="Your favorites list is expanding. Impressive       X"
+        android:textSize="18sp"
+        android:textColor="#050505" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="260dp"
+        android:background="#157177" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="270dp"
+        android:text="You have a new message in community.👁️       X"
+        android:textSize="18sp"
+        android:textColor="#050505" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="300dp"
+        android:background="#157177" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="310dp"
+        android:text="Your favorite mentor is Online. Say Hi to him.   X"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#050505" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="340dp"
+        android:background="#157177" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:text="Thank you for booking a session. Good Luck.    X"
+        android:textSize="18sp"
+        android:textColor="#050505" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="380dp"
+        android:background="#157177" />
+
+</FrameLayout>

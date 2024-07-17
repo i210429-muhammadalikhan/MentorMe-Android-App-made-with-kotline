@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+    <FrameLayout
+        android:id="@+id/main_browse_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/squaree"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="220dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/white7"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="260dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+        <TextView
+            android:id="@+id/topMentorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="305dp"
+            android:clickable="true"
+            android:textColor="#070707"
+            android:layout_marginStart="40dp"
+            android:layout_below="@id/TopmentorsforyouText" />
+
+        <TextView
+            android:id="@+id/topMentorDesignation"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#050505"
+            android:layout_marginTop="325dp"
+            android:layout_marginStart="38dp"
+            android:layout_below="@id/topMentorName" />
+
+        <TextView
+            android:id="@+id/topMentorStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#22D829"
+            android:clickable="true"
+            android:textStyle="italic"
+            android:layout_marginTop="335dp"
+            android:layout_marginStart="42dp"
+            android:layout_below="@id/topMentorDesignation" />
+
+        <TextView
+            android:id="@+id/topMentorPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#FFC107"
+            android:clickable="true"
+            android:layout_marginTop="310dp"
+            android:layout_marginStart="133dp" />
+
+
+        <ImageView
+            android:id="@+id/squareee"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="220dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/whitee7"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="260dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+
+        <TextView
+            android:id="@+id/topMentorName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="305dp"
+            android:clickable="true"
+            android:textColor="#070707"
+            android:layout_marginStart="200dp" />
+
+        <TextView
+            android:id="@+id/topMentorDesignation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textSize="12sp"
+            android:textColor="#050505"
+            android:layout_marginTop="325dp"
+            android:layout_marginStart="198dp"
+            android:layout_below="@id/topMentorName2" />
+
+        <TextView
+            android:id="@+id/topMentorStatus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#22D829"
+            android:layout_marginTop="335dp"
+            android:textStyle="italic"
+            android:clickable="true"
+            android:layout_marginStart="202dp"
+            android:layout_below="@id/topMentorDesignation2" />
+
+        <TextView
+            android:id="@+id/topMentorPrice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#FFC107"
+            android:clickable="true"
+            android:layout_marginTop="310dp"
+            android:layout_marginStart="290dp" />
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/squareeee"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="220dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/whiteee7"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="260dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+
+
+        <TextView
+            android:id="@+id/topMentorName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="305dp"
+            android:textColor="#070707"
+            android:layout_marginStart="370dp"/>
+
+        <TextView
+            android:id="@+id/topMentorDesignation3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:textColor="#050505"
+            android:layout_marginTop="325dp"
+            android:layout_marginStart="368dp"
+            android:layout_below="@id/topMentorName2" />
+
+        <TextView
+            android:id="@+id/topMentorStatus3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:textColor="#22D829"
+            android:layout_marginTop="335dp"
+            android:layout_marginStart="372dp"
+            android:textStyle="italic"
+            android:layout_below="@id/topMentorDesignation2" />
+
+        <TextView
+            android:id="@+id/topMentorPrice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#FFC107"
+            android:clickable="true"
+            android:layout_marginTop="310dp"
+            android:layout_marginStart="470dp" />
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/addText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Hello,"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#0C0C0C" />
+
+
+        <TextView
+            android:id="@+id/aliText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="30dp"
+            android:text="Ali"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+        <TextView
+            android:id="@+id/dotText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="15dp"
+            android:text="🛎"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:clickable="true"
+            android:textColor="#070707" />
+
+        <TextView
+            android:id="@+id/readyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Ready for mentorship? Let’s begin the journey!"
+            android:textSize="16sp"
+            android:textColor="#157177" />
+
+        <ImageView
+            android:id="@+id/topbarImage"
+            android:layout_width="410dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/topbar7" />
+
+        <TextView
+            android:id="@+id/TopmentorsforyouText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="180dp"
+            android:text="Top Mentors for you"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+        <TextView
+            android:id="@+id/viewallText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="185dp"
+            android:text="View All"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+        <TextView
+            android:id="@+id/educationmentorsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="390dp"
+            android:text="Education Mentors"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+        <TextView
+            android:id="@+id/viewwallText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="395dp"
+            android:text="View All"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/squarebelow"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="420dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/white7below"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="460dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+
+
+
+        <TextView
+            android:id="@+id/topMentorNamebelow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="500dp"
+            android:clickable="true"
+            android:textColor="#070707"
+            android:layout_marginStart="40dp"
+            android:layout_below="@id/TopmentorsforyouText" />
+
+        <TextView
+            android:id="@+id/topMentorDesignationbelow1"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#050505"
+            android:layout_marginTop="520dp"
+            android:layout_marginStart="38dp"
+            android:layout_below="@id/topMentorName" />
+
+        <TextView
+            android:id="@+id/topMentorStatusbelow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#22D829"
+            android:clickable="true"
+            android:textStyle="italic"
+            android:layout_marginTop="530dp"
+            android:layout_marginStart="42dp"
+            android:layout_below="@id/topMentorDesignation" />
+
+        <TextView
+            android:id="@+id/topMentorPricebelow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#FFC107"
+            android:clickable="true"
+            android:layout_marginTop="505dp"
+            android:layout_marginStart="133dp" />
+
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/squareeebelow"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="420dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/whitee7below"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="460dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+
+
+        <TextView
+            android:id="@+id/topMentorNamebelow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="500dp"
+            android:clickable="true"
+            android:textColor="#070707"
+            android:layout_marginStart="200dp"
+            android:layout_below="@id/TopmentorsforyouText" />
+
+        <TextView
+            android:id="@+id/topMentorDesignationbelow2"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#050505"
+            android:layout_marginTop="520dp"
+            android:layout_marginStart="198dp"
+            android:layout_below="@id/topMentorName" />
+
+        <TextView
+            android:id="@+id/topMentorStatusbelow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#22D829"
+            android:clickable="true"
+            android:textStyle="italic"
+            android:layout_marginTop="530dp"
+            android:layout_marginStart="202dp"
+            android:layout_below="@id/topMentorDesignation" />
+
+        <TextView
+            android:id="@+id/topMentorPricebelow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#FFC107"
+            android:clickable="true"
+            android:layout_marginTop="505dp"
+            android:layout_marginStart="290dp" />
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/squareeeebelow"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="420dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/whiteee7below"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="460dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+
+
+        <TextView
+            android:id="@+id/topMentorNamebelow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="500dp"
+            android:clickable="true"
+            android:textColor="#070707"
+            android:layout_marginStart="370dp"
+            android:layout_below="@id/TopmentorsforyouText" />
+
+        <TextView
+            android:id="@+id/topMentorDesignationbelow3"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#050505"
+            android:layout_marginTop="520dp"
+            android:layout_marginStart="368dp"
+            android:layout_below="@id/topMentorName" />
+
+        <TextView
+            android:id="@+id/topMentorStatusbelow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#22D829"
+            android:clickable="true"
+            android:textStyle="italic"
+            android:layout_marginTop="530dp"
+            android:layout_marginStart="372dp"
+            android:layout_below="@id/topMentorDesignation" />
+
+        <TextView
+            android:id="@+id/topMentorPricebelow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#FFC107"
+            android:clickable="true"
+            android:layout_marginTop="505dp"
+            android:layout_marginStart="470dp" />
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/recentmentorsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="610dp"
+            android:text="Recent Mentors"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+
+
+        <ImageView
+            android:id="@+id/squarebeloww"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="640dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/white7beloww"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="660dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+
+
+
+        <ImageView
+            android:id="@+id/squareeebeloww"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="640dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/whitee7beloww"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="660dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+        <ImageView
+            android:id="@+id/squareeeebeloww"
+            android:layout_width="155dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="640dp"
+            android:clickable="true"
+            android:src="@drawable/bs9" />
+
+        <ImageView
+            android:id="@+id/whiteee7beloww"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="660dp"
+            android:clickable="true"
+            android:src="@drawable/white7" />
+
+
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="700dp"
+            android:background="#157177" />
+
+
+        <TextView
+            android:id="@+id/viewwwallText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="615dp"
+            android:text="View All"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="710dp"
+            android:background="#157177" />
+
+        <ImageView
+            android:id="@+id/homeoptImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginTop="750dp"
+            android:layout_marginStart="20dp"
+            android:clickable="true"
+            android:src="@drawable/homeopt7" />
+
+        <ImageView
+            android:id="@+id/searchImage"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginTop="745dp"
+            android:layout_marginStart="90dp"
+            android:clickable="true"
+            android:src="@drawable/searchopt7" />
+
+
+        <ImageView
+            android:id="@+id/chatoptImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginTop="750dp"
+            android:layout_marginStart="240dp"
+            android:clickable="true"
+            android:src="@drawable/chatopt7" />
+
+        <ImageView
+            android:id="@+id/profileoptImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginTop="750dp"
+            android:layout_marginStart="310dp"
+            android:clickable="true"
+            android:src="@drawable/profileopt7" />
+
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/TopmentorsforyouText"
+            android:layout_marginTop="725dp"
+            android:layout_marginStart="165dp"
+            android:clickable="true"
+            android:src="@drawable/plus" />
+
+
+    </FrameLayout>
+
+
+</HorizontalScrollView>

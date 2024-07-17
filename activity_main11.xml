@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_page_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#50C2C9" />
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="&#x2190;"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:text="Hi, I'm                                              John Cooper"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F4F3F3" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="230dp"
+        android:background="#DEF8F8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:text="Drop me a review 😀"
+        android:textSize="28sp"
+        android:textColor="#F4F2F2" />
+
+    <ImageView
+        android:id="@+id/maleAvatarImageView"
+        android:layout_width="100dp"
+        android:layout_height="102dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="90dp"
+        android:contentDescription="Male Avatar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/john13" />
+
+    <EditText
+        android:id="@+id/experienceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:hint="Tyoe your experience ..."
+        android:padding="10dp"
+        android:inputType="textMultiLine"
+        android:lines="7"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/firststar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="70dp"
+        android:clickable="true"
+        android:layout_marginTop="550dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/starr11" />
+
+    <ImageView
+        android:id="@+id/secondstar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="120dp"
+        android:clickable="true"
+        android:layout_marginTop="550dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/starr11" />
+
+    <ImageView
+        android:id="@+id/thirdstar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="550dp"
+        android:clickable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/starr11" />
+
+    <ImageView
+        android:id="@+id/fourthstar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="220dp"
+        android:clickable="true"
+        android:layout_marginTop="550dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/starr11" />
+
+    <ImageView
+        android:id="@+id/fifthstar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="550dp"
+        android:clickable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/starr11" />
+
+
+
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="720dp"
+        android:text="Submit Feedback"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#157177" />
+
+</FrameLayout>

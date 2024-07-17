@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_page_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="&#x2190;"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:text="Let's Find..."
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:hint="🔍 Search"
+        android:padding="12dp"
+        android:clickable="true"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/searchResultsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:orientation="vertical">
+            <!-- Search results will be added dynamically here -->
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="180dp"
+        android:text="Recent Searches..."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+
+    <View
+        android:layout_width="410dp"
+        android:layout_height="470dp"
+        android:layout_marginTop="340dp"
+        android:background="#B6ECE7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="340dp"
+        android:text="Browse Categories"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="395dp"
+        android:layout_marginStart="120dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Entrepreneurship"
+        android:textColor="#090909"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="120dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Personal Growth"
+        android:textColor="#020202"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="560dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginStart="120dp"
+        android:text="Education"
+        android:textColor="#0A0B0B"/>
+
+    <ImageView
+        android:id="@+id/enterPic"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="385dp"
+        android:layout_marginStart="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ent8" />
+
+    <ImageView
+        android:id="@+id/personalPic"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="465dp"
+        android:layout_marginStart="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pg8" />
+
+    <ImageView
+        android:id="@+id/educationPic"
+        android:layout_width="95dp"
+        android:layout_height="84dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="545dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ed8" />
+
+    <TextView
+        android:id="@+id/upRightArrow"
+        android:layout_width="35dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="375dp"
+        android:text="&#x2197;"
+        android:textColor="#000000"
+        android:textSize="38sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/uppRightArrow"
+        android:layout_width="35dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="460dp"
+        android:text="&#x2197;"
+        android:textColor="#000000"
+        android:textSize="38sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/upppRightArrow"
+        android:layout_width="35dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="550dp"
+        android:text="&#x2197;"
+        android:textColor="#000000"
+        android:textSize="38sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="390dp"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/plus" />
+
+</FrameLayout>

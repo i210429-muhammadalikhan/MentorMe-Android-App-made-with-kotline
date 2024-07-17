@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="&#x2190;"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/resetPasswordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:text="Reset Password?"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <TextView
+        android:id="@+id/newpasswordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resetPasswordText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Please type a new password and re-enter the password. Type something you will remember!"
+        android:textSize="17sp"
+        android:textColor="#080909" />
+
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newpasswordText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="New Password"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#080909" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordLabel"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:hint="Enter New Password"
+        android:padding="18dp"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/confirmPasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Confirm Password"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#080909" />
+
+    <EditText
+        android:id="@+id/confirmPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmPasswordLabel"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:hint="Re-enter Password"
+        android:padding="18dp"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmPasswordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Reset Password"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#157177" />
+
+    <TextView
+        android:id="@+id/dontwantresetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resetButton"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="90dp"
+        android:text="Don’t want to reset password? Login"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#090909" />
+
+</RelativeLayout>

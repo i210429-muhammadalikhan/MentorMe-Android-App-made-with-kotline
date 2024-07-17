@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_page_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity22"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#50C2C9" />
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="&#x2190;"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="65dp"
+        android:text="Edit Profile"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#F4F3F3" />
+
+    <ImageView
+        android:id="@+id/randLogoImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="142dp"
+        android:src="@drawable/pp22" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="740dp"
+        android:text="Update Profile"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:backgroundTint="#157177"
+        android:onClick="onUpdateButtonClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="270dp"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="60dp"
+        android:padding="12dp"
+        android:hint="Ali"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="353dp"
+        android:text="Email"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="60dp"
+        android:padding="12dp"
+        android:hint="ali@gmail.com"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="430dp"
+        android:text="Contact Number"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <EditText
+        android:id="@+id/contactNumberEditText"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="60dp"
+        android:hint="+92 321 2242022"
+        android:padding="12dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="512dp"
+        android:text="Country"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <EditText
+        android:id="@+id/countryEditText"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="535dp"
+        android:hint="Pakistan"
+        android:layout_marginEnd="60dp"
+        android:padding="12dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="583dp"
+        android:text="City"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <EditText
+        android:id="@+id/cityEditText"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="60dp"
+        android:padding="12dp"
+        android:hint="Islamabad"
+        android:background="#FFFFFF" />
+
+</FrameLayout>

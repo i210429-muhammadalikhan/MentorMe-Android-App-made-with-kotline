@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_page_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity14"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="&#x2190;"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#157177"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="50dp"
+        android:text="Chats"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="130dp"
+        android:text="My Community"
+        android:textSize="18sp"
+        android:textColor="#202829" />
+
+    <ImageView
+        android:id="@+id/allfaces"
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/allfaces" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="270dp"
+        android:text="All Messages"
+        android:textSize="18sp"
+        android:textColor="#202829" />
+
+
+    <ImageView
+        android:id="@+id/john14pic"
+        android:layout_width="85dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitXY"
+        android:clickable="true"
+        android:src="@drawable/john14" />
+
+    <ImageView
+        android:id="@+id/jack14pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/jack14" />
+
+    <ImageView
+        android:id="@+id/emma14pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/emma14" />
+
+    <TextView
+        android:id="@+id/johnchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="320dp"
+        android:text="John Cooper"
+        android:textSize="22sp"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="410dp"
+        android:text="Jack Watson"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="500dp"
+        android:text="Emma Philips"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#157177" />
+
+
+    <TextView
+        android:id="@+id/johnchatt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="350dp"
+        android:text="1 New Message"
+        android:clickable="true"
+        android:textSize="14sp"
+        android:textColor="#B31111" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="440dp"
+        android:text="No New Messages"
+        android:textSize="14sp"
+        android:textColor="#202829" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="530dp"
+        android:text="No New Messages"
+        android:textSize="14sp"
+        android:textColor="#202829" />
+
+    <ImageView
+        android:id="@+id/plusImage"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/plus" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="390dp"
+        android:background="#B6ECE7" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="485dp"
+        android:background="#B6ECE7" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="570dp"
+        android:background="#B6ECE7" />
+
+</FrameLayout>

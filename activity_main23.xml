@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/second_page_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="1200dp"
+        tools:context=".MainActivity23"
+        android:background="#DEF8F8"
+        tools:ignore="MergeRootFrame">
+
+        <TextView
+            android:id="@+id/backwardArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:text="&#x2190;"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="#157177"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="60dp"
+            android:text="Booked Sessions"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+        <ImageView
+            android:id="@+id/johnCooperPic"
+            android:layout_width="148dp"
+            android:layout_height="134dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            android:contentDescription="John Cooper"
+            android:src="@drawable/j23" />
+
+
+
+        <ImageView
+            android:id="@+id/emmaPhilipsPic"
+            android:layout_width="151dp"
+            android:layout_height="135dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="300dp"
+            android:contentDescription="Emma Philips"
+            android:src="@drawable/e23" />
+
+        <View
+            android:layout_width="228dp"
+            android:layout_height="70dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="140dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="150dp"
+            android:text="John Cooper                    24th Dec, 2023"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="170dp"
+            android:text="UX Designer @ Google                       1:00 pm"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#FFC107" />
+
+        <View
+            android:layout_width="225dp"
+            android:layout_height="70dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="171dp"
+            android:layout_marginTop="320dp"
+            android:background="#FFFFFF" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="330dp"
+            android:text="Emma Philips                    1st Jan, 2024"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="350dp"
+            android:text="Android Developer                            09:00 pm"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="#FFC107" />
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/johnCooperPicdown"
+            android:layout_width="148dp"
+            android:layout_height="134dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="480dp"
+            android:contentDescription="John Cooper"
+            android:src="@drawable/j23" />
+
+        <View
+            android:layout_width="225dp"
+            android:layout_height="70dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="171dp"
+            android:layout_marginTop="500dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textViewJohn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="510dp"
+            android:textSize="14sp"
+            android:text="John Cooper"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+        <TextView
+            android:id="@+id/textiewDesignation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="530dp"
+            android:textSize="14sp"
+            android:text="UX Designer @ Google"
+            android:textStyle="bold"
+            android:textColor="#FFC107" />
+
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="510dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="530dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFC107" />
+
+        <ImageView
+            android:id="@+id/johnCooperPicdownn"
+            android:layout_width="148dp"
+            android:layout_height="134dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="660dp"
+            android:contentDescription="John Cooper"
+            android:src="@drawable/j23" />
+
+        <View
+            android:layout_width="225dp"
+            android:layout_height="70dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="171dp"
+            android:layout_marginTop="680dp"
+            android:background="#FFFFFF" />
+
+
+        <TextView
+            android:id="@+id/textViewJohnn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="690dp"
+            android:textSize="14sp"
+            android:text="John Cooper"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+        <TextView
+            android:id="@+id/textiewDesignationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="710dp"
+            android:textSize="14sp"
+            android:text="UX Designer @ Google"
+            android:textStyle="bold"
+            android:textColor="#FFC107" />
+
+
+
+        <TextView
+            android:id="@+id/textViewDate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="690dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+        <TextView
+            android:id="@+id/textViewTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="710dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFC107" />
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/johnCooperPicdownnn"
+            android:layout_width="148dp"
+            android:layout_height="134dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="840dp"
+            android:contentDescription="John Cooper"
+            android:src="@drawable/j23" />
+
+        <View
+            android:layout_width="225dp"
+            android:layout_height="70dp"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="171dp"
+            android:layout_marginTop="860dp"
+            android:background="#FFFFFF" />
+
+
+        <TextView
+            android:id="@+id/textViewJohnnn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="870dp"
+            android:textSize="14sp"
+            android:text="John Cooper"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+        <TextView
+            android:id="@+id/textiewDesignationnn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="890dp"
+            android:textSize="14sp"
+            android:text="UX Designer @ Google"
+            android:textStyle="bold"
+            android:textColor="#FFC107" />
+
+
+
+        <TextView
+            android:id="@+id/textViewDate3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="870dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#157177" />
+
+
+        <TextView
+            android:id="@+id/textViewTime3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="890dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFC107" />
+
+
+    </FrameLayout>
+    </HorizontalScrollView>
+</ScrollView>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity15"
+    android:background="#DEF8F8"
+    tools:ignore="MergeRootFrame">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/helpText"
+        android:layout_marginBottom="660dp"
+        android:background="#50C2C9" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="760dp"
+        android:background="#50C2C9" />
+
+    <TextView
+        android:id="@+id/backwardArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="&#x2190;"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#F9FBFB"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/johnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backwardArrow"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="55dp"
+        android:text="John Cooper"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:textColor="#F3F4F4" />
+
+    <ImageView
+        android:id="@+id/call15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="290dp"
+        android:scaleType="fitXY"
+        android:clickable="true"
+        android:src="@drawable/call15" />
+
+    <ImageView
+        android:id="@+id/videocall15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="340dp"
+        android:scaleType="fitXY"
+        android:clickable="true"
+        android:src="@drawable/videocall15" />
+
+    <ImageView
+        android:id="@+id/msgpic15"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="680dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/msgpic15" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="680dp"
+        android:background="#50C2C9" />
+
+
+    <ImageView
+        android:id="@+id/plusImage"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/plus" />
+
+    <EditText
+        android:id="@+id/msgEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="680dp"
+        android:background="#50C2C9"
+        android:hint="Type Something ..."
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+
+    <TextView
+        android:id="@+id/clipiconText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="680dp"
+        android:text="📎"
+        android:clickable="true"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:textColor="#F3F4F4" />
+
+
+    <TextView
+        android:id="@+id/cameraiconText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="680dp"
+        android:text="📷"
+        android:clickable="true"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:textColor="#F3F4F4" />
+
+    ️
+    <TextView
+        android:id="@+id/voicenoteiconText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="680dp"
+        android:text="🎙"
+        android:clickable="true"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:textColor="#F3F4F4" />
+
+
+
+    <TextView
+        android:id="@+id/sendmessageiconText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="355dp"
+        android:layout_marginTop="680dp"
+        android:text="✈️"
+        android:clickable="true"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:textColor="#F3F4F4" />
+
+    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="550dp" />
+
+
+
+    <ScrollView
+        android:layout_width="390dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp">
+
+        <LinearLayout
+            android:id="@+id/messageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
+
+
+
+
+
+
+
+

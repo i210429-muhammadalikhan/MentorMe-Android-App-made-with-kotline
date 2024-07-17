@@ -1,0 +1,101 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEF8F8"
+    tools:context=".MainActivity20"
+    tools:ignore="MergeRootFrame">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="100dp"
+        android:background="#CCCCCC" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="John Cooper"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="50:08"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/johnPicImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/john20" />
+
+    <View
+        android:id="@+id/linebar"
+        android:layout_width="162dp"
+        android:layout_height="6dp"
+        android:layout_gravity="start|top"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="620dp"
+        android:background="#8CAFAF" />
+
+    <ImageView
+        android:onClick="joinChannel"
+        android:id="@+id/micMuteImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:layout_gravity="start|bottom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/m20" />
+
+    <ImageView
+        android:id="@+id/soundImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:layout_gravity="start|bottom"
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/s20" />
+
+    <ImageView
+        android:id="@+id/pauseImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginLeft="310dp"
+        android:clickable="true"
+        android:layout_marginBottom="85dp"
+        android:src="@drawable/p20" />
+
+    <ImageView
+        android:onClick="leaveChannel"
+        android:id="@+id/cancelImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="start|bottom"
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:src="@drawable/c20" />
+
+
+</FrameLayout>
